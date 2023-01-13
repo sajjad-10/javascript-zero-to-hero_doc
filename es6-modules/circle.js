@@ -1,5 +1,5 @@
 const _radius = new WeakMap();
-class Circle {
+export default class Circle {
     constructor(radius) {
         _radius.set(this, radius);
     }
