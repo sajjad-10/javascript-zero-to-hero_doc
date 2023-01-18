@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="./create-event.js" defer></script> -->
+
+    <!-- <script src="./object-event.js" defer></script> -->
+
+    <!-- <script src="./event-propagation.js" defer></script> -->
+
+    <!-- <script src="./load-event.js" defer></script> -->
+
+    <!-- <script src="./orientationchange-event.js" defer></script> -->
+
+    <!-- <script src="./scroll-event.js" defer></script> -->
+
+    <!-- <script src="./custom-event.js" defer></script> -->
+
+    <!-- <script src="./mous-event.js" defer></script> -->
+
+    <script src="./key-event.js" defer></script>
+
+
+    <title>Event</title>
+    <style>
+        body {
+            background-color: rgb(208, 206, 206);
+            max-width: 500px;
+            margin: 0px auto;
+        }
+
+        header,
+        main,
+        footer {
+            border: 2px solid black;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        #to-do-list {
+            padding: 30px;
+        }
+
+        .to-do-section {
+            padding: 30px;
+        }
+
+        .to-do-section,
+        #to-do-lest,
+        .to-do-item,
+        .title,
+        #header-title,
+        .to-do-span,
+        ul,
+        form {
+            border: 1px solid #3498db;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2 class="title">Header</h2>
+        <h1 id="header-title">Project to Learn</h1>
+    </header>
+    <main>
+        <section class="to-do-section">
+            <form id="myform">
+                <input type="text">
+            </form>
+            <h2 id="main-title" class="title">Main</h2>
+            <ul id="to-do-list">
+                <li class="to-do-item">
+                    <span class="to-do-span">Item One</span>
+                </li>
+                <li class="to-do-item">
+                    <span class="to-do-span">Item two</span>
+                </li>
+                <li class="to-do-item">
+                    <span class="to-do-span">Item three</span>
+                </li>
+                <li class="to-do-item">
+                    <span class="to-do-span">Item four</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <button onclick="handelRemove()">Remove Footer</button>
+        <button id="handelBg">Change Bg</button>
+        <h2 class="title">Footer</h2>
+        <a href="https://github.com/sajjad-10/" id="ref-link">See use</a>
+    </footer>
+</body>
+
+</html>
