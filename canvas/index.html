@@ -9,7 +9,13 @@
 
     <!-- <script src="./canvas-line.js" defer></script> -->
 
-    <script src="./canvas-circle.js" defer></script>
+    <!-- <script src="./canvas-circle.js" defer></script> -->
+
+    <!-- <script src="./canvas-animation-intro.js" defer></script> -->
+
+    <!-- <script src="./canvas-animation-intro-two.js" defer></script> -->
+
+    <script src="./canvas-animation-intro-oop.js" defer></script>
     <title>Canvas</title>
     <style>
         body {
@@ -19,10 +25,22 @@
         canvas {
             background-color: #fff;
         }
+
+        #ball {
+            display: none;
+            width: 40px;
+            height: 40px;
+            background-color: #3498db;
+            border-radius: 50%;
+            position: fixed;
+            left: 10px;
+            top: 30px;
+        }
     </style>
 </head>
 
 <body>
+    <div id="ball"></div>
     <canvas></canvas>
 </body>
 
