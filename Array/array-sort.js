@@ -23,4 +23,4 @@ const nameProgram = obProgramName.sort((a, b) => {
     if (itemB > itemA) return 1; // b
     return 0;
 });
-console.log("sorted: ", nameProgram); // 12 convert to string  2 > "12" // [0, 1, 12, 2, 3]
+console.log("sorted: ", nameProgram);
