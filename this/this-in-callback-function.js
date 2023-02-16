@@ -11,7 +11,7 @@ const video = {
         });
     },
 };
-video.showTags();
+// video.showTags();
 
 const video2 = {
     title: "a",
@@ -19,8 +19,7 @@ const video2 = {
     showTags() {
         this.tags.forEach(function (tag) {
             console.log(this, tag); // this is show object
-        },this);
+        }, this); // all method's can not get (this) in scend parameter
     },
 };
-video2.showTags();
-
+// video2.showTags();
